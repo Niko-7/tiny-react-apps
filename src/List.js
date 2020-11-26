@@ -1,14 +1,14 @@
 import React from 'react';
 
 const List = (props) => {
-
   return (
-    <ul class='list'>
-          {props.tasks.map((task) => {
-          console.log(task);
+    <ul class="list">
+      {props.tasks.map((task) => {
         return (
           <li key={task}>
-            <button onClick={() => props.removeTask(task)}>X</button>
+            <button class="button" onClick={() => props.removeTask(task)}>
+              X
+            </button>
             <p>{task}</p>
           </li>
         );

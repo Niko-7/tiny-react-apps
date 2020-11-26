@@ -1,24 +1,70 @@
-
 body {
-
+  display: flex;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-image:  url("http://www.pptback.com/uploads/borders-frames-notepad-backgrounds-powerpoint.jpg");
+  background-image: url('http://www.pptback.com/uploads/borders-frames-notepad-backgrounds-powerpoint.jpg');
   background-size: cover;
   width: 100%;
+  font-size: large;
+  font-family: 'Dancing Script', cursive;
 }
-h1{
+h1 {
   text-align: center;
   font-size: 4em;
   margin-top: 2em;
 }
-.list{
-border: 1px solid black;
-border-radius: 2px;
-width: 75%;
-font-size: 2em;
-margin-left: 3em;
+.list {
+  border-radius: 2px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .list li {
-  padding: 0.8em;
+  display: flex;
+  margin-right: auto;
+}
+
+.list li p {
+  font-size: 3em;
+  letter-spacing: 0.2em;
+}
+
+.list li .button {
+  margin-right: 2em;
+  text-align: center;
+  height: 50%;
+  margin-top: 5.2em;
+  background: none;
+  border-radius: 10em;
+}
+
+.list li .button:hover {
+  background: red;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  font-family: 'Dancing Script', cursive;
+}
+
+.taskBox {
+  width: auto;
+  margin-right: 2em;
+  font-size: 2em;
+  border-radius: 4px;
+  font-family: 'Dancing Script', cursive;
+}
+
+form label button {
+  border-radius: 4px;
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+}
+
+form label button:hover {
+  background-color: seagreen;
 }
