@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:  url("http://www.pptback.com/uploads/borders-frames-notepad-backgrounds-powerpoint.jpg");
+  background-size: cover;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+h1{
+  text-align: center;
+  font-size: 4em;
+  margin-top: 2em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list{
+border: 1px solid black;
+border-radius: 2px;
+width: 75%;
+font-size: 2em;
+margin-left: 3em;
+}
+.list li {
+  padding: 0.8em;
 }
